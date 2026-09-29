@@ -12,12 +12,12 @@ This extension isn't on the Chrome Web Store, so it's installed as an unpacked e
 2. Unzip it. To do this on Windows, right-click the file and choose **Extract All**. (As per usual, Windows is stupid, so for mac users this is much easier, just choose the extracted file that appears after you unzip the original)
 3. Open `chrome://extensions` in Chrome.
 4. Turn on **Developer mode** in the top-right corner.
-5. Click **Load unpacked** and select the folder that has `manifest.json` directly inside it.
+5. Click **Load unpacked** and select the folder that has `manifest.json` directly inside it. (it should be titled "veracross-grade-estimator" v1.4.0 WITHOUT a .zip
 6. (optional) Pin the extension: click the puzzle-piece icon in the toolbar, then the pin next to Veracross Grade Estimator.
 
 Keep the folder after installing. Chrome loads the extension from it every time, so deleting or moving it removes the extension.
 
-If Chrome says the manifest file is unreadable or missing, you selected a folder one level too high. Open the folder you picked; if it contains another folder instead of `manifest.json`, select that inner folder.
+ALSO, since windows is annoying, it may often unzip your file directly into the folder it was in, meaning you can end up with a folder titled "veracross-grade-estimator v1.4.0," that has another folder inside of it with the same name. If this occurs, make sure to select that inner folder that is inside the other one and that contains `manifest.json`.
 
 ## Use
 
